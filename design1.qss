@@ -1,0 +1,97 @@
+#main_window
+{
+    background-color: #303A37;
+    /* background-color: #ffffff; */
+}
+
+#bubble
+{
+    background-color: #232E2B;
+    min-width: 800px;
+    max-width: 800px;
+    min-height: 300px;
+    max-height: 300px;
+    border-radius: 20px;
+}
+
+#bubble_expanded 
+{
+    background-color: #232E2B;
+    min-width: 800px;
+    max-width: 800px;
+    min-height: 600px;
+    max-height: 600px;
+    border-radius: 20px;
+}
+
+#bubble_heading
+{
+    color: white;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+#bubble_para
+{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#back_arrow
+{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+#back_arrow:hover
+{
+    background-color: white;
+    color: #202020
+}
+
+#path_text
+{
+    min-width: 180px;
+    max-width: 180px;
+    color: #202020;
+}
+
+#quality_path
+{
+    color: #202020;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+#browse_button, #browse_button_source_dir, #browse_button_dest_dir
+{
+    max-width: 30px;
+    min-width: 30px;
+}
+
+#compress_button 
+{
+    background-color: #303A37;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+#compress_button:hover
+{
+    background-color: white;
+    color: black;
+}
+
+#status
+{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
